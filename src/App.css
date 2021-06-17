@@ -1,0 +1,38 @@
+.App{
+    
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 50px;
+ background: transparent;
+  background:url(./Components/Todoimage.jpg)no-repeat center center fixed;
+ -webkit-background-size:cover;
+ -moz-backgound-size:cover;
+ -o-background-size:cover; 
+ font-family: sans-serif;
+
+
+ 
+}
+.App .title{
+  font-size: 3rem;
+  padding: 0px 20px 0px 20px;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 2px solid black;
+  align-self: center;
+  color: #332c2c;
+  font-family: "Covered By Your Grace",cursive;
+}
+.App span{
+  font-size: 18px;
+  font-family:  "permanent Marker", cursive;
+  color: rgb(245, 73, 153);
+  
+}
+.App h1{
+  font: size 2rem;
+  font-family:  "permanent Marker", cursive;
+  color: rgb(238, 98, 133);
+  margin-left: 440px;
+  margin-top: -40px;
+}
